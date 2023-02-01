@@ -31,6 +31,7 @@ ylh.VerticalAlignment	= 'middle'; %if it is not alligned well, try 'top' and 'bo
 xlim([300 900])
 ylim([40 100] )
 set(gca,'FontSize',13)
+set(gca,'XMinorTick','on','YMinorTick','on')
 box on
 saveas(gcf,'fig.png')
 saveas(gcf,'fig.emf')
